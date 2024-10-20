@@ -9,7 +9,7 @@ env:
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_CLOUD_ORGANIZATION: "devhubone-foundation"
   TF_CLOUD_WORKSPACE: "devhubone-infrastructure"
-  CONFIG_DIRECTORY: "./"
+  CONFIG_DIRECTORY: "./terraform"
 
 jobs:
   terraform:
