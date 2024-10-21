@@ -75,3 +75,28 @@ Both workflows ensure we have a reliable infrastructure deployment pipeline. The
 `Terraform Plan` workflow ensures that changes are reviewed before merging, and the
 `Terraform Apply` workflow ensures that changes are automatically applied after
 they are approved and merged into the main branch.
+
+## GitHub Repositories Management with Terraform
+
+In DevHubOne, Terraform is used to manage various aspects of our GitHub repositories,
+ensuring consistency and automation in our repository settings. Key elements managed
+include:
+
+- **Repository Configuration**
+  Repository settings like visibility, project features (issues, projects), and merge
+  checks and restrictions.
+
+- **Branch Protection**
+  Terraform enforces protection rules on critical branches, requiring reviews and
+  status checks for any changes.
+
+- **Issue Labels**
+  Creation and management of predefined labels are also handled via Terraform,
+  ensuring proper categorization and tracking of issues and pull requests.
+
+- **Milestones**
+  Terraform also defines project milestones to track major goals and deadlines
+  across repositories.
+
+This approach allows us to maintain a consistent setup across all repositories,
+including `devhubone-guild` and `devhubone-infrastructure`.
