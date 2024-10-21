@@ -16,7 +16,7 @@ A clear and concise description of what changes you have made.
 If the pull request fixes a bug, what was the cause of the bug?
 
 **Breaking change?**
-Is the change you are introducing going to affect already other existing resources? (ex. addition of a new infrastructure may require additional changes in other repositories)
+Is the change you are introducing going to affect already other existing resources? (ex. an addition of a new infrastructure may require additional changes in other repositories)
 
 - [ ] No, this code change does not affect other project resources.
 - [ ] Yes, the code changes in this pull request modify already existing project resources.
