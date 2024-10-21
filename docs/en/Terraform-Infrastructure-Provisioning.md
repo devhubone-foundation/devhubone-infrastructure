@@ -76,7 +76,7 @@ Both workflows ensure we have a reliable infrastructure deployment pipeline. The
 `Terraform Apply` workflow ensures that changes are automatically applied after
 they are approved and merged into the main branch.
 
-## GitHub Repositories Management with Terraform
+## GitHub Repositories Management
 
 In DevHubOne, Terraform is used to manage various aspects of our GitHub repositories,
 ensuring consistency and automation in our repository settings. Key elements managed
@@ -100,3 +100,18 @@ include:
 
 This approach allows us to maintain a consistent setup across all repositories,
 including `devhubone-guild` and `devhubone-infrastructure`.
+
+## Vercel Infrastructure Management
+
+For our Vercel deployments, Terraform is used to automate the setup and configuration
+of our projects. This includes:
+
+- **Project Configuration**
+  Managing project settings such as build sources, build commands, output directories,
+  etc.
+
+- **Deployment Domains**
+  Automatically configuring custom domains and handling redirects between them.
+
+This ensures that Vercel projects like `devhubone-guild` are set up consistently
+and automatically, simplifying our deployment workflows.
